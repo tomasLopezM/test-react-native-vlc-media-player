@@ -40,7 +40,7 @@ const App: () => React$Node = () => {
           style={styles.scrollView}>
           {/* <Header title="test"/> */}
           <View >
-              <Text style={styles.heading}>RN VLC Media Player</Text>
+              <Text style={styles.heading}>RN VLC Media Player gato</Text>
           </View>
           <View style={styles.body}>
           <VLCPlayer
@@ -49,7 +49,7 @@ const App: () => React$Node = () => {
               hwDecoderEnabled: 1,
               hwDecoderForced: 1,
               uri:
-                'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov',
+                '*aca va el link de la camara*',
               initOptions: [
                 '--no-audio',
                 '--rtsp-tcp',
